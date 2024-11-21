@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'poppins', sans-serif;
+}
+
+a{
+    color:#1976D2;
+}
+
+ul{
+    padding-left:2rem;
+}
+
+header {
+    background-color: RGB(144, 238, 144);
+    overflow: hidden;
+    /* Ensure the text is clipped when out of view */
+    width: 100%;
+    /* Full width of the screen */
+    text-align: center;
+}
+
+.hero {
+    padding: 0rem 2rem;
+}
+
+.hero-txt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-txt h2 {
+    padding-top: 0.5rem;
+}
+
+.hero-txt .sub-txt {
+    padding: 0.5rem 0rem;
+
+}
+
+.hero-txt2 {
+    padding: 0.5rem 0;
+    text-align: justify;
+}
+
+.hero-txt2 h3 {
+    color: #006400;
+}
+
+.hero-txt3 {
+    padding: 0.5rem 0;
+    text-align: justify;
+}
+
+.hero-txt3 h3 {
+    color: #006400;
+}
+
+.hero-txt4 {
+    padding: 0.5rem 0;
+    text-align: justify;
+}
+
+.hero-txt5{
+    padding: 0.5rem 0;
+    
+}
+
+.hero-txt5 h3{
+    color:#1976D2;
+}
+
+.hero-txt4 h4 {
+    color: #D32F2F; /* Modern red for attention */
+}
+
+hr{
+    margin: 2rem 0;
+
+}
+
+ 
+
+.divider {
+    padding: 0rem 0.5rem;
+}
+
+.fa-leaf {
+    color: #28a745;
+    /* A modern green shade */
+    margin-right: 10px;
+    /* Adds spacing between the icon and text */
+}
+
+.sliding-text {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #006400;
+    /* Dark green */
+    animation: slideInOut 30s linear infinite;
+    /* Animates continuously */
+    white-space: nowrap;
+    /* Prevents text from wrapping */
+}
+
+/* Keyframes for sliding effect */
+@keyframes slideInOut {
+    0% {
+        transform: translateX(-100%);
+        /* Start off-screen to the right */
+    }
+
+    100% {
+        transform: translateX(100%);
+        /* Return off-screen to the right */
+    }
+}
+
+.hero-img {
+    width: 100%;
+    /* Adjust the width */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tea-pack, .liver-gif {
+    max-width: 95%;
+    border-radius: 0.5rem;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1), 0px 1px 3px rgba(0, 0, 0, 0.06);
+    /* Modern subtle shadow */
+}
+
+@media (max-width: 768px) {
+    .hero-txt {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .divider {
+        display: none;
+    }
+}

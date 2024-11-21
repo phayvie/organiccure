@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "health",
+			"path": ".."
+		},
+		{
+			"name": "imgs",
+			"path": "../../imgs"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "health"
+	}
+}
