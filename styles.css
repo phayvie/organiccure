@@ -217,4 +217,11 @@ hr {
     .divider {
         display: none;
     }
+
+    .hero-txt6b img{
+        width: 100%;
+        text-align: center;
+        max-width: 100%;
+        border-radius: 1rem;
+    }
 }
