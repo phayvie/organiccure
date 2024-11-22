@@ -60,6 +60,56 @@ header {
     color: #006400;
 }
 
+.tea-pack-ad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+.tea-pack-ad img{
+    width: 100%;
+    text-align: center;
+    max-width:  30rem;
+    border-radius: 0.7rem;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1), 0px 1px 3px rgba(0, 0, 0, 0.06);
+
+    
+}
+
+
+.benefits-section {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.benefits-list,
+.negatives-list,
+.additional-benefits-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.benefits-list li,
+.negatives-list li,
+.additional-benefits-list li {
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+    accent-color: #006400;
+    /* For checked checkboxes */
+}
+
+
 .hero-txt3 {
     padding: 0.5rem 0;
     text-align: justify;
@@ -94,8 +144,9 @@ header {
 }
 
 .order-now-btn i {
-    font-size: 1.2rem; /* Adjust icon size */
-  }
+    font-size: 1.2rem;
+    /* Adjust icon size */
+}
 
 .order-now-btn:hover {
     background: linear-gradient(135deg, #ff758c, #ff7eb3);
@@ -117,12 +168,12 @@ header {
     color: #0d4072;
 }
 
-.hero-txt6b{
+.hero-txt6b {
     width: 100%;
     text-align: center;
 }
 
-.hero-txt6b img{
+.hero-txt6b img {
     width: 100%;
     text-align: center;
     max-width: 40rem;
@@ -130,7 +181,7 @@ header {
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1), 0px 1px 3px rgba(0, 0, 0, 0.06);
 }
 
-.hero-txt7{
+.hero-txt7 {
     max-width: 100%;
     margin: 0 auto;
     text-align: center;
@@ -138,13 +189,16 @@ header {
 
 .hero-txt7 h3 {
     color: #006400;
-    
+
 }
 
 .google-form {
-    width: 100%; /* Makes it responsive */
-    height: 150rem; /* Ensures it takes the full viewport height */
-    border: none; /* Removes iframe border */
+    width: 100%;
+    /* Makes it responsive */
+    height: 150rem;
+    /* Ensures it takes the full viewport height */
+    border: none;
+    /* Removes iframe border */
 }
 
 
@@ -219,7 +273,7 @@ hr {
         display: none;
     }
 
-    .hero-txt6b img{
+    .hero-txt6b img {
         width: 100%;
         text-align: center;
         max-width: 100%;
