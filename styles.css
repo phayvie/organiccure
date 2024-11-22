@@ -4,16 +4,20 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'poppins', sans-serif;
 }
 
-a{
-    color:#1976D2;
+a {
+    color: #1976D2;
 }
 
-ul{
-    padding-left:2rem;
+ul {
+    padding-left: 2rem;
 }
 
 header {
@@ -70,25 +74,73 @@ header {
     text-align: justify;
 }
 
-.hero-txt5{
+.hero-txt4 h4 {
+    color: #D32F2F;
+    /* Modern red for attention */
+}
+
+.order-now-btn {
+    background: linear-gradient(135deg, #ff7eb3, #ff758c);
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.order-now-btn i {
+    font-size: 1.2rem; /* Adjust icon size */
+  }
+
+.order-now-btn:hover {
+    background: linear-gradient(135deg, #ff758c, #ff7eb3);
+    transform: scale(1.05);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.order-now-btn:active {
+    transform: scale(1);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.hero-txt5 {
     padding: 0.5rem 0;
+
+}
+
+.hero-txt5 h3 {
+    color: #0d4072;
+}
+
+.hero-txt7{
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hero-txt7 h3 {
+    color: #006400;
     
 }
 
-.hero-txt5 h3{
-    color:#1976D2;
+.google-form {
+    width: 100%; /* Makes it responsive */
+    height: 150rem; /* Ensures it takes the full viewport height */
+    border: none; /* Removes iframe border */
 }
 
-.hero-txt4 h4 {
-    color: #D32F2F; /* Modern red for attention */
-}
 
-hr{
+hr {
     margin: 2rem 0;
 
 }
 
- 
+
 
 .divider {
     padding: 0rem 0.5rem;
@@ -133,7 +185,8 @@ hr{
     align-items: center;
 }
 
-.tea-pack, .liver-gif {
+.tea-pack,
+.liver-gif {
     max-width: 95%;
     border-radius: 0.5rem;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1), 0px 1px 3px rgba(0, 0, 0, 0.06);

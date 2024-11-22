@@ -55,11 +55,11 @@
 
         <div class="hero-txt4">
             <h4>The Dangers of Neglecting Liver Health</h4>
-            <p>The liver is often referred to as a "silent powerhouse" because it quietly supports critical functions in
+            <!-- <p>The liver is often referred to as a "silent powerhouse" because it quietly supports critical functions in
                 your body without drawing attention. Located on the right side of your abdomen, this resilient organ
                 processes toxins, supports digestion, and regulates blood sugar. Yet, despite its vital role, it often
                 goes unnoticed—until problems arise.
-            </p>
+            </p> -->
 
             <br />
             <p>Unlike many organs, the liver doesn’t typically show symptoms of distress until a significant issue has
@@ -79,36 +79,57 @@
                 run smoothly.
 
                 Take proactive steps now to care for your liver. Remember, a healthy liver equals a healthier, more
-                energized you! <a href="#">Order now</a>
+                energized you!
             </p>
+            <br />
+            <a href="#order-form"><button class="order-now-btn" > <i class="fas fa-cart-shopping"></i> ORDER NOW</button></a>
             <hr />
             <div class="hero-txt5">
 
                 <h3>Why Buy From Us?</h3>
                 <ul>
-                    <li><strong>Affordable Prices:</strong> We source products directly from the manufacturer, ensuring the best prices.</li>
-                    <li><strong>Quality Assurance:</strong> Every product is personally checked and tested to ensure it meets our high standards before being shipped.</li>
-                    <li><strong>Customer Satisfaction:</strong> We prioritize 100% customer satisfaction, supported by our responsive customer service.</li>
-                    <li><strong>Fast Delivery & Free Shipping:</strong> Enjoy fast delivery and free shipping, with the option for cash on delivery.</li>
-                    <li><strong>Easy Returns & Replacements:</strong> We offer a hassle-free return policy and replacement for damaged items due to manufacturing defects or shipping issues.</li>
+                    <li><strong>Affordable Prices:</strong> We source products directly from the manufacturer, ensuring
+                        the best prices.</li>
+                    <li><strong>Quality Assurance:</strong> Every product is personally checked and tested to ensure it
+                        meets our high standards before being shipped.</li>
+                    <li><strong>Customer Satisfaction:</strong> We prioritize 100% customer satisfaction, supported by
+                        our responsive customer service.</li>
+                    <li><strong>Fast Delivery & Free Shipping:</strong> Enjoy fast delivery and free shipping, with the
+                        option for cash on delivery.</li>
+                    <li><strong>Easy Returns & Replacements:</strong> We offer a hassle-free return policy and
+                        replacement for damaged items due to manufacturing defects or shipping issues.</li>
                 </ul>
-            </div>
+            </div >
             <hr/>
             <div class="hero-txt6">
 
                 <h3>Please Note</h3>
-                <p><p>For orders outside Lagos, Abuja, Delta, Port Harcourt, Edo, Enugu, Anambra, Abia, Owerri, and Ibadan,
+                <p>
+                <p>For orders outside Lagos, Abuja, Delta, Port Harcourt, Edo, Enugu, Anambra, Abia, Owerri, and Ibadan,
                     a commitment fee of ₦1,000 is required before shipment. The remaining balance is to be paid upon
                     delivery to ensure successful completion of your order.
-                    Payment details will be provided during our order confirmation call.</p>
-
-                    <br/>
-                    <strong><i>
-                            We kindly ask for understanding—excuses such as "I don’t have money," "I traveled," or "I
-                            was just
-                            joking" are discouraging, as we incur costs to ship products via courier services.
-                    </strong></i>
+                    Payment details will be provided during our order confirmation call.
                 </p>
+
+                <strong> <p>For More Enquiry, Call or WhatsApp us:  08033071827 </p> </strong>
+
+                <br />
+                <strong><i>
+                        We kindly ask for understanding—excuses such as "I don’t have money," "I traveled," or "I
+                        was just
+                        joking" are discouraging, as we incur costs to ship products via courier services.
+                </strong></i>
+                </p>
+            </div>
+            <hr id="order-form"/>
+            <div class="hero-txt7">
+
+                <h3>Fill and submit the form to place your Order</h3>
+                <iframe
+                 id="orderFormIframe"
+                    src="https://docs.google.com/forms/d/1khsQZSTj1KOSema7iOLz_AFF7390vxTMhMkHX9yHneA/viewform?embedded=true"
+                    frameborder="0" class="google-form">
+                </iframe>
             </div>
         </div>
 
@@ -121,5 +142,17 @@
 
 
 </body>
+
+<script>
+    const iframe = document.getElementById('orderFormIframe');
+    
+    iframe.addEventListener('load', () => {
+        // Automatically scroll to the top of the iframe
+        iframe.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+        });
+    });
+</script>
 
 </html>
